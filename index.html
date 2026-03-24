@@ -7,6 +7,49 @@
     <title>Map Point - Track Your Workouts Around The Globe!</title>
   </head>
   <body>
+    <aside>
+      <div class="form hidden">
+        <form action="" class="">
+          <select name="workout-type" id="workout-type" class="workout-type">
+            <option value="running">Running</option>
+            <option value="cycling">Cycling</option>
+            <option value="walking">Walking</option>
+          </select>
+          <input
+            type="number"
+            name="distance"
+            id="distance"
+            class="form-input form-input-distance"
+          />
+          <input
+            type="number"
+            name="duration"
+            id="duration"
+            class="form-input form-input-duration"
+          />
+          <input
+            type="number"
+            name="steps-per-minute"
+            id="steps-per-minute"
+            class="form-input form-input-steps-per-minute"
+          />
+          <input
+            type="number"
+            name="elevation-gain"
+            id="elevation-gain"
+            class="form-input form-input-elevation-gain hidden"
+          />
+        </form>
+      </div>
+      <div class="box-workout">
+        <h2 class="heading-workout">🏃‍♂️ Running on March 24, 2026</h2>
+        <span class="label-stats label-stats-distance">10 KM</span>
+        <span class="label-stats label-stats-duration">25 Minutes</span>
+        <span class="label-stats label-stats-steps-per-minute">45</span>
+        <span class="label-stats label-stats-elevation-gain"></span>
+      </div>
+    </aside>
+    <main></main>
     <script src="script.js"></script>
   </body>
 </html>
